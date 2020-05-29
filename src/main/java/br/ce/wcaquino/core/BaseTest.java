@@ -14,17 +14,19 @@ import org.junit.rules.TestName;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
-import br.ce.wcaquino.pages.LoginPage;
+import br.ce.wcaquino.pages.StartPage;
 
 public class BaseTest {
-	private LoginPage page = new LoginPage();
+	private StartPage page = new StartPage();
 
 	@Rule
 	public TestName testName = new TestName();
-	
+
 	@Before
 	public void inicializa() {
 		page.acessarTelaInicial();
+		
+		
 	}
 
 	@After
