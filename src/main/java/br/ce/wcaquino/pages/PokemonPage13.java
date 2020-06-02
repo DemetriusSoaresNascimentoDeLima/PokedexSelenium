@@ -7,11 +7,10 @@ import java.util.concurrent.TimeUnit;
 import org.junit.Assert;
 
 import br.ce.wcaquino.core.BasePage;
-import br.ce.wcaquino.core.DriverFactory;
 
-public class PokemonPage8 extends BasePage {
+public class PokemonPage13 extends BasePage {
 
-	public void verDetalhes141() throws InterruptedException {
+	public void verDetalhes241() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -20,13 +19,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnKabutops");
-		Assert.assertEquals("KABUTOPS", obterTexto("141"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnMiltank");
+		Assert.assertEquals("MILTANK", obterTexto("241"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes142() throws InterruptedException {
+	public void verDetalhes242() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -35,13 +39,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-        clicarBotao("btnAerodactyl");
-		Assert.assertEquals("AERODACTYL", obterTexto("142"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+        clicarBotao("btnBlissey");
+		Assert.assertEquals("BLISSEY", obterTexto("242"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes143() throws InterruptedException {
+	public void verDetalhes243() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -50,13 +59,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnSnorlax");
-		Assert.assertEquals("SNORLAX", obterTexto("143"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnRaikou");
+		Assert.assertEquals("RAIKOU", obterTexto("243"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes144() throws InterruptedException {
+	public void verDetalhes244() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -65,13 +79,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnArticuno");
-		Assert.assertEquals("ARTICUNO", obterTexto("144"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnEntei");
+		Assert.assertEquals("ENTEI", obterTexto("244"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes145() throws InterruptedException {
+	public void verDetalhes245() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -80,13 +99,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnZapdos");
-		Assert.assertEquals("ZAPDOS", obterTexto("145"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnSuicune");
+		Assert.assertEquals("SUICUNE", obterTexto("245"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes146() throws InterruptedException {
+	public void verDetalhes246() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -95,13 +119,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnMoltres");
-		Assert.assertEquals("MOLTRES", obterTexto("146"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnLarvitar");
+		Assert.assertEquals("LARVITAR", obterTexto("246"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes147() throws InterruptedException {
+	public void verDetalhes247() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -110,13 +139,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnDratini");
-		Assert.assertEquals("DRATINI", obterTexto("147"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnPupitar");
+		Assert.assertEquals("PUPITAR", obterTexto("247"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes148() throws InterruptedException {
+	public void verDetalhes248() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -125,13 +159,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnDragonair");
-		Assert.assertEquals("DRAGONAIR", obterTexto("148"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnTyranitar");
+		Assert.assertEquals("TYRANITAR", obterTexto("248"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes149() throws InterruptedException {
+	public void verDetalhes249() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -140,13 +179,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnDragonite");
-		Assert.assertEquals("DRAGONITE", obterTexto("149"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnLugia");
+		Assert.assertEquals("LUGIA", obterTexto("249"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes150() throws InterruptedException {
+	public void verDetalhes250() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -155,13 +199,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnMewtwo");
-		Assert.assertEquals("MEWTWO", obterTexto("150"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnHo-oh");
+		Assert.assertEquals("HO-OH", obterTexto("250"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes151() throws InterruptedException {
+	public void verDetalhes251() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -170,13 +219,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnMew");
-		Assert.assertEquals("MEW", obterTexto("151"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnCelebi");
+		Assert.assertEquals("CELEBI", obterTexto("251"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes152() throws InterruptedException {
+	public void verDetalhes252() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -185,13 +239,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnChikorita");
-		Assert.assertEquals("CHIKORITA", obterTexto("152"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnTreecko");
+		Assert.assertEquals("TREECKO", obterTexto("252"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes153() throws InterruptedException {
+	public void verDetalhes253() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -200,13 +259,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnBayleef");
-		Assert.assertEquals("BAYLEEF", obterTexto("153"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnGrovyle");
+		Assert.assertEquals("GROVYLE", obterTexto("253"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes154() throws InterruptedException {
+	public void verDetalhes254() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -215,13 +279,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnMeganium");
-		Assert.assertEquals("MEGANIUM", obterTexto("154"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnSceptile");
+		Assert.assertEquals("SCEPTILE", obterTexto("254"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes155() throws InterruptedException {
+	public void verDetalhes255() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -230,13 +299,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnCyndaquil");
-		Assert.assertEquals("CYNDAQUIL", obterTexto("155"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnTorchic");
+		Assert.assertEquals("TORCHIC", obterTexto("255"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes156() throws InterruptedException {
+	public void verDetalhes256() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -245,13 +319,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnQuilava");
-		Assert.assertEquals("QUILAVA", obterTexto("156"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnCombusken");
+		Assert.assertEquals("COMBUSKEN", obterTexto("256"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes157() throws InterruptedException {
+	public void verDetalhes257() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -260,13 +339,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnTyphlosion");
-		Assert.assertEquals("TYPHLOSION", obterTexto("157"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnBlaziken");
+		Assert.assertEquals("BLAZIKEN", obterTexto("257"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes158() throws InterruptedException {
+	public void verDetalhes258() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -275,13 +359,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnTotodile");
-		Assert.assertEquals("TOTODILE", obterTexto("158"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnMudkip");
+		Assert.assertEquals("MUDKIP", obterTexto("258"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes159() throws InterruptedException {
+	public void verDetalhes259() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -290,13 +379,18 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnCroconaw");
-		Assert.assertEquals("CROCONAW", obterTexto("159"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnMarshtomp");
+		Assert.assertEquals("MARSHTOMP", obterTexto("259"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
 
-	public void verDetalhes160() throws InterruptedException {
+	public void verDetalhes260() throws InterruptedException {
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		clicarBotao("next");
 		clicarBotao("next");
@@ -305,8 +399,13 @@ public class PokemonPage8 extends BasePage {
 		clicarBotao("next");
 		clicarBotao("next");
 		clicarBotao("next");
-		clicarBotao("btnFeraligatr");
-		Assert.assertEquals("FERALIGATR", obterTexto("160"));
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("next");
+		clicarBotao("btnSwampert");
+		Assert.assertEquals("SWAMPERT", obterTexto("260"));
 		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
 	}
